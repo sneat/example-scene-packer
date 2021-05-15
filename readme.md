@@ -5,19 +5,23 @@ This module is a showcase of the features supported by [Library: Scene Packer](h
 ## Showcases
 
 - Display a Journal Entry when the module is first installed.
-- Display a Scene's linked Journal when it is first unpacked.
+- Display a Scene's linked Journal when that Scene is first unpacked.
 - Scenes with Journal Pins are re-linked to their correct Journal.
-  - Scene name: Playlist
+  - Scene name: `Playlist`
   - The linked Journals are automatically imported if they are missing from the world.
 - Tokens on a Scene are re-linked to their Actor.
-  - Scene name: Playlist
+  - Scene name: `Playlist`
   - Actors are automatically imported if they are missing from the world.
 - Scenes with linked Playlists are automatically linked up after they are unpacked.
-  - Scene name: Playlist
+  - Scene name: `Playlist`
   - The Playlist is automatically imported if it is missing from the world.
 - Quick Encounter Journal Pins launch the correct Journal and spawn linked Tokens
-  - Scene name: Quick Encounter
+  - Scene name: `Quick Encounter`
   - Actors are automatically imported if they are missing from the world.
+- Automatic Journal imports.
+  - The journal "Credits" will be automatically imported to the world as per the definition in `module/init.js`.
+- Automatic Macro imports.
+  - The macro "Example Macro" will be automatically imported to the world as per the definition in `module/init.js`.
 
 
 ## Installation

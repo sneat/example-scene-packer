@@ -12,13 +12,13 @@ const welcomeJournal = 'Introduction';
  * Set to the following to disable:
  *   const additionalJournals = [];
  */
-const additionalJournals = [];
+const additionalJournals = ['Credits'];
 /**
  * additionalMacros will automatically be imported.
  * Set to the following to disable:
  *   const additionalMacros = [];
  */
-const additionalMacros = [];
+const additionalMacros = ['Example Macro'];
 /**
  * creaturePacks is a list of compendium packs to look in for Actors by name (in prioritised order).
  * The first entry here assumes that you have an Actor pack in your module with the "name" of "actors".
