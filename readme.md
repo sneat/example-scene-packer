@@ -22,6 +22,9 @@ This module is a showcase of the features supported by [Library: Scene Packer](h
   - The journal "Credits" will be automatically imported to the world as per the definition in `module/init.js`.
 - Automatic Macro imports.
   - The macro "Example Macro" will be automatically imported to the world as per the definition in `module/init.js`.
+- Default Permissions
+  - The Journal Entries "Limited", "Observer" and "Owner" will all maintain their default appropriate default permission on import.
+  - The Macro "Example Macro" will import with a default permission of "Observer".
 
 
 ## Installation
