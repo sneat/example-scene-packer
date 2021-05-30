@@ -2,7 +2,7 @@
   "name": "example-scene-packer",
   "title": "Example Scene Packer",
   "description": "A module to showcase Scene Packer functionality.",
-  "version": "2.2.0",
+  "version": "2.2.11",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.8.2",
   "author": "Blair McMillan",
