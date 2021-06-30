@@ -3,26 +3,34 @@
   const moduleName = 'example-scene-packer';
 
   /**
-   * welcomeJournal (if set) will automatically be imported and opened after the first activation of a scene imported from the module compendium.
+   * welcomeJournal (if set) will automatically be imported and opened after the first activation of a
+   * scene imported from the module compendium.
+   * The name here corresponds to a Journal entry in your compendium and must match exactly (it is case
+   * sensitive).
    * Set to the following to disable:
    *   const welcomeJournal = '';
    */
   const welcomeJournal = 'Introduction';
   /**
-   * additionalJournals will automatically be imported.
+   * additionalJournals will automatically be imported. This is a list of Journals by name that should
+   * also be imported.
    * Set to the following to disable:
    *   const additionalJournals = [];
    */
   const additionalJournals = ['Credits'];
   /**
-   * additionalMacros will automatically be imported.
+   * additionalMacros will automatically be imported. Each name must match exactly and are case sensitive.
    * Set to the following to disable:
    *   const additionalMacros = [];
    */
   const additionalMacros = ['Example Macro'];
   /**
    * creaturePacks is a list of compendium packs to look in for Actors by name (in prioritised order).
+   * If the creature is not found in the first pack, it will search through each subsequent pack.
    * The first entry here assumes that you have an Actor pack in your module with the "name" of "actors".
+   * The second entry here lists the DnD5e SRD Monsters compendium that comes with the DnD5e system. Feel
+   * free to delete the 'dnd5e.monsters' reference if you want, or swapping it to any other system compendium
+   * reference.
    * Set to the following to disable:
    *   const creaturePacks = [];
    */
@@ -61,7 +69,7 @@
       welcomeJournal,
       additionalJournals,
       additionalMacros,
-      allowImportPrompts: true, // Set to false if you don't want the popup
+      allowImportPrompts: true, // Set to false if you don't want the initial popup
     });
   });
 })();
