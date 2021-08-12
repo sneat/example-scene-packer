@@ -2,6 +2,8 @@
 
 This module is a showcase of the features supported by [Library: Scene Packer](https://github.com/League-of-Foundry-Developers/scene-packer). It can be used as a starting point if you are setting up your own adventure module or want to see what Scene Packer is capable of.
 
+As an alternate starting point (that is blank and good for people new to Foundry VTT Modules), you can use https://github.com/sneat/starter-scene-packer
+
 ## Showcases
 
 - Display a Journal Entry when the module is first installed.
