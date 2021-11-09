@@ -1,10 +1,10 @@
 {
   "name": "example-scene-packer",
-  "title": "Example Scene Packer",
+  "title": "Scene Packer - An Example",
   "description": "A module to showcase Scene Packer functionality.",
-  "version": "2.2.12",
+  "version": "2.2.13",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.9",
   "author": "Blair McMillan",
   "authors": [
     {
@@ -23,43 +23,43 @@
   "packs": [
     {
       "name": "maps",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/maps.db",
       "entity": "Scene"
     },
     {
       "name": "actors",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/actors.db",
       "entity": "Actor"
     },
     {
       "name": "journals",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/journals.db",
       "entity": "JournalEntry"
     },
     {
       "name": "items",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/items.db",
       "entity": "Item"
     },
     {
       "name": "rolltables",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/rolltables.db",
       "entity": "RollTable"
     },
     {
       "name": "macros",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/macros.db",
       "entity": "Macro"
     },
     {
       "name": "playlists",
-      "label": "Example Scene Packer",
+      "label": "Scene Packer - Example",
       "path": "/packs/playlists.db",
       "entity": "Playlist"
     }
